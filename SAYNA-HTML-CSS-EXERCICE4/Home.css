@@ -1,0 +1,276 @@
+@font-face{
+    font-family: Marvel;
+    src: url(./Assets/police/Far-From\ Homecoming\ Updated.otf);
+}
+h1, h3{
+    font-family: Marvel;
+}
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+li{
+    text-decoration: none;
+}
+/* *************************** En tete ************************* */
+header {
+    color: #ffffff;
+    background-color: #B11313;
+}
+.Menu{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+header img{
+    padding: 0 10px 0 10px;
+    margin: 15px;
+}
+li{
+    float: left;
+    display: flex;
+    padding: 0 20px 0 20px;
+    margin: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header nav a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+}
+/* **************************** Spiderman **************************** */
+.Sympa{
+    background: url(./Assets/Illustration/img1.png);
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    color: #ffffff;
+}
+.Quartier{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    margin-top: -5%;
+}
+.Quartier h1{
+    margin: 0%;
+    font-size: 5em;
+    font-family: Marvel;
+    margin-top: -7%;
+}
+.Quartier h2{
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Accueil{
+    padding-top: 10%;
+    display: flex;
+}
+button.Hero{
+    background-color: #ffffff;
+    color: #B11313;
+    width: 200px;
+    border-radius: 15px;
+    height: 50px;
+    border: 1px solid #B11313;
+    margin-bottom: 15px;
+    font-weight: bold;
+    margin: 10px;
+}
+button.Adversaire{
+    background-color: #B11313;
+    color: #ffffff;
+    width: 200px;
+    border-radius: 15px;
+    height: 50px;
+    border: 1px solid #B11313;
+    margin-bottom: 15px;
+    font-weight: bold;
+    margin: 10px;
+}
+/* **************************** Presentation **************************** */
+.Cinéma{
+    background-color: #B11313;
+    color: #ffffff;
+    padding: 5%;
+}
+.Cinéma h1{
+    font-size: 2.2em;
+    margin-left: 5%;
+    margin: 0%;
+}
+.Cinéma h2{
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Cinéma p{
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+
+}
+.Visage{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Role .img1 {
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/Illustration/img3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: -5px;
+}
+.Role .img2 {
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/Illustration/img2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: -5px;
+}
+.Role .img3 {
+    width: 100%;
+    height: 200px;
+    background-image: url(./Assets/Illustration/img4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: -5px;
+}
+.Historique {
+    padding: 10px;
+    text-align: justify;
+    padding-top: 9%;
+    width: 300px;
+}
+/* ************************** Formulaire ************************** */
+.Costume{
+    display: flex;
+    justify-content: space-between;
+}
+.speed{
+    display: flex;
+}
+.Formulaire h1, h2{
+    margin-left: 5%;
+}
+.Formulaire h1{
+    font-size: 2em;
+    color: #ffffff;
+
+}
+.Formulaire h2{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Remplir{
+    width: 100%;
+}
+input{
+    size: 20%;
+    width: 380px;
+    border-color: #ffffff;
+    border-radius: 15px;
+    height: 25px ;
+    background-color: white;
+    color: #ffffff;
+    border: 1px solid white;
+}
+input.envoyer{
+    cursor: pointer;
+    width: 200px;
+    margin-left: 90px;
+    height: 30px;
+    color: #114C92;
+}
+button.Envoyer{
+    background-color: #114C92;
+    color: #ffffff;
+    width: 200px;
+    border-radius: 15px;
+    height: 50px;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    font-weight: bold;
+    margin: 5px;
+    margin-left: 5%;
+}
+/* ************************** Inscrit *************************** */
+.Inscrit{
+    background-color: #B11313;
+    color: #ffffff;
+    display: flex;
+    margin: 0%;
+    overflow: hidden;
+}
+.letter1 h1, h2{
+    margin-left: 15%;
+}
+.letter1 h1{
+    font-size: 2.2em;
+    width: 150%;
+}
+.letter1 h2{
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.signature p{
+    margin-left: 15%;
+}
+input.formule{
+    background-color: #B11313;
+    color: #ffffff;
+}
+button.letter{
+    background-color: white;
+    color: #B11313;
+    width: 200px;
+    border-radius: 15px;
+    height: 50px;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    font-weight: bold;
+    margin: 5px;
+    margin-left: 25%;
+}
+/* ***************************** Footer ************************* */
+footer{
+    background-color: #000000;
+}
+footer img{
+    padding: 0 10px 0 10px;
+    margin: 10px;
+}
+footer li{
+    display: flex;
+    padding: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer .application{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo{
+    text-align: center;
+    color: #ffffff;
+}
+.logo p{
+    margin-bottom: 0%;
+    padding-bottom: 20px;
+}
+.réseaux2 img{
+    background-color: #B11313;
+    height: 40px;
+    width: 30px;
+    border-radius: 50%;  
+}
